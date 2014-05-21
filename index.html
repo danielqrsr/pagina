@@ -36,7 +36,8 @@
     <p>Lugar: <strong>ViveLab Pereira</strong></p>
     <p><strong>Carrera 14 Bis # 28 - 38 Barrio San Nicolás</strong></p>
     <h3 class="text-info">Reserva tu lugar ya mismo.</h3>
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Reservar!</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Reservar!</button>
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#mapaModal">Ver Mapa</button>
   </div>
 
   <div class="container">
@@ -112,6 +113,24 @@ js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';i
       </div>
       <div class="modal-body">
         <iframe src="https://docs.google.com/forms/d/1iu9gkKiNoQKv6kd-zJYOJsfCjQOyuwgKCXXZ_Ygamz8/viewform?embedded=true" width="558" height="650" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mapa -->
+<div class="modal fade" id="mapaModal" tabindex="-1" role="dialog" aria-labelledby="mapaComoLlegar" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Mapa ViveLab Pereira</h4>
+      </div>
+      <div class="modal-body">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3975.7738009618383!2d-75.70280134677887!3d4.808858405046788!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2s!4v1400271146082" width="558" height="450" frameborder="0" style="border:0"></iframe>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
